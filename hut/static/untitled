@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <title>new</title
+  </head>
+<body>
+<form action="/add_todo">
+    <label>
+    To do item
+    </label>
+    </form>
+</body>
+</html
