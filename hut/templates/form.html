@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <body>
+        <title>forms<</title>
+
+<form action="/add_todo">
+    <label>
+    To do item
+    </label>
+    
+    <input type="text" name="item">
+    <button type = "submit" name="but">Submit</button>
+</form>
+
+<ol>
+    {%for item in items%}
+    <li>
+        {{item}}
+    </li>
+    {%endfor%}
+</ol>
+    
+</body>
+
+</html>
+
+
